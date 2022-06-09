@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(245, 239, 234);
+  margin: 20px;
+}
+
+.navbar {
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo .image-field{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.dropdown {
+  float: left;
+  overflow: auto;
+  margin-left: 14px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: rgb(89, 39, 101);
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+.a-right {
+  float: right;
+  overflow: auto;
+}
+
+.a-right a{
+  padding: 14px 16px;
+  margin-right: 10px;
+}
+
+.a-right .sales {
+  background-color: rgb(245, 239, 234);
+  border: 2px solid rgb(89, 39, 101);
+  color: rgb(89, 39, 101);
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.a-right .sales:hover{
+  background-color:rgb(89, 39, 101);
+  border: 2px solid rgb(89, 39, 101);
+  color:rgb(245, 239, 234);
+}
+
+.a-right .tff {
+  background-color:rgb(89, 39, 101);
+  border: 2px solid rgb(89, 39, 101);
+  color:rgb(245, 239, 234);
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.a-right .tff:hover{
+  background-color: rgb(245, 239, 234);
+  border: 2px solid rgb(89, 39, 101);
+  color: rgb(89, 39, 101);
+}
+
+.split {
+  height: 75%;
+  position: fixed;
+  top: 0;
+  overflow: auto;
+  padding-top: 30px;
+}
+
+.left {
+  width: 50%;
+  left:15px;
+  top: 35px;
+  margin-left: 20px;
+}
+
+.right {
+  width: 50%;
+  right: -80px;
+  top: 100px;
+  margin-right: 20px;
+}
+
+/* .img1 {
+  max-width: 75%;
+  height: auto;
+} */
+
+.intro {
+  line-height:12px;
+}
+
+.split .tff {
+  background-color:rgb(89, 39, 101);
+  border: 2px solid rgb(89, 39, 101);
+  color:rgb(245, 239, 234);
+  padding: 15px;
+  width: 190px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.split .tff:hover{
+  background-color: rgb(245, 239, 234);
+  border: 2px solid rgb(89, 39, 101);
+  color: rgb(89, 39, 101);
+}
+
+.split1 {
+  height: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: auto ;
+  padding-top: 20px;
+}
+
+.left1 {
+  width: 60%;
+  left:15px;
+  top: 480px;
+  margin-left: 20px;
+}
+
+.right1 {
+  width: 40%;
+  right: -30px;
+  top: 480px;
+  margin-right: 20px;
+}
+
+.split1 .img2 {
+ box-shadow: 2px;
+}
+
+.intro1 {
+  line-height:12px;
+}
+
+.split1 .features {
+  background-color: rgb(245, 239, 234);
+  border: 2px solid rgb(89, 39, 101);
+  color: rgb(89, 39, 101);
+  padding: 15px;
+  width: 265px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.split1 .features:hover{
+  background-color:rgb(89, 39, 101);
+  border: 2px solid rgb(89, 39, 101);
+  color:rgb(245, 239, 234);
+}
+

@@ -1,0 +1,90 @@
+.pentagon {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: rgb(124, 223, 194) transparent;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: rgb(124, 223, 194) transparent;
+}
+
+.search {
+    font-size: 10em;
+    display: inline-block;
+    left: 210px;
+    width: 0.4em;
+    box-sizing: content-box;
+    height: 0.4em;
+    border: 0.1em solid rgb(124, 223, 194);
+    position: relative;
+    border-radius: 0.35em;
+}
+.search:before {
+content: "";
+display: inline-block;
+position: absolute;
+right: -0.25em;
+bottom: -0.1em;
+border-width: 0;
+background: rgb(124, 223, 194);
+width: 0.35em;
+height: 0.08em;
+transform: rotate(45deg);
+}
+
+.cross {
+    background: rgb(124, 223, 194);
+    height: 100px;
+    position: relative;
+    left: 420px;
+    top: -100px;
+    width: 20px;
+}
+.cross:after {
+background: rgb(124, 223, 194);
+content: "";
+height: 20px;
+left: -40px;
+position: absolute;
+top: 40px;
+width: 100px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    left: 540px;
+    top: -180px;
+  }
+.heart:before,
+.heart:after {
+position: absolute;
+content: "";
+left: 50px;
+top: 0;
+width: 50px;
+height: 80px;
+background: rgb(124, 223, 194);
+border-radius: 50px 50px 0 0;
+transform: rotate(-45deg);
+transform-origin: 0 100%;
+}
+.heart:after {
+left: 0;
+transform: rotate(45deg);
+transform-origin: 100% 100%;
+}
+
